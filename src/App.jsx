@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {/* inicio */}
-      <div id="bgImg" style={{ backgroundImage: `url(${fondo})`}} className="bg-[100%] bg-cover relative">
+      <div id="bgImg" style={{ backgroundImage: `url(${fondo})`}} className="bg-[100%] bg-cover">
       <div id='inicio'>
         {/* NavBar */}
              <div className='flex justify-between items-center w-[100%] fixed bg-black opacity-90 h-[60px]'>
@@ -33,7 +33,7 @@ function App() {
             
             <div className='max-w-[1100px] min-w-[320px] h-[100vh] m-auto flex flex-col items-center justify-center'> {/*  // PRESENTACIÓN// */}
             {/* <p className='text-normal text-white font-bold mb-5 uppercase tracking-[0.2em] '>Bienvenidos</p> */}
-            <h2 className='text-[55px] mb-6  ssm:leading-none sm:leading-none md:leading-none text-white font-bold font-[poppins] text-left'>turning ideas into real life <span id='css-selector'>products</span> is my calling.</h2>
+            <h2 className='text-[55px] mb-6 text-left ssm:leading-none sm:leading-none md:leading-none text-white font-bold font-[poppins]'>turning ideas into real life <span id='css-selector'>products</span> is my calling.</h2>
             {/* <p className='text-white font-[poppins] mb-5'>Desarrollar webpages con código se convirtió en mi pasión, satisfacer al cliente y al usuario mi trabajo favorito</p> */}
             <button className='bg-transparent border-2 border-white rounded-3xl hover:ease-in uppercase hover:text-fuchsia-100 text-white hover:shadow-lg hover:shadow-indigo-500/40 '><a href="#portafolio">Ir al Portafolio</a></button>
             </div> 
@@ -41,7 +41,10 @@ function App() {
       </div>
       <SobreMi/>
       <Conocimiento/>
-      <ProjectCards/>
+      <div>
+          <ProjectCards/>
+      </div>
+    
     </div>
   )
 }

@@ -18,6 +18,7 @@ function SobreMi(props) {
                     <button className='rounded-3xl border-2   mt-6 text-white hover:bg-transparent bg-purple-600 hover:text-purple-600 hover:border-purple-600'><a href="">Descargar CV</a></button>
                 </div>
             </div>
+            
 
         </>
     );

@@ -3,112 +3,131 @@ import cardPrice from "./img/cardPrice.png";
 function ProjectCards(props) {
     return (
         
-           <section className="max-w-[1100px] py-[100px] px-0 m-auto md:p-[50px] ">
-            <h1 className="text-center text-2xl uppercase text-[#111135] underline">My projects</h1>
-            {/* fila */}
-            <div className="justify-between my-8 mx-0 sm:block md:block lg:flex">  
-                {/* proyecto */}
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
+        <section className="max-w-[1560px] py-[100px] px-4 m-auto">
+        <h1 className="text-center text-[30px] uppercase text-violet-500 underline underline-offset-4 font-[poppins] font-medium mb-5">My projects</h1>
+        {/* fila */}
+        <div className=" mx-0 flex flex-col items-center lg:justify-between lg:flex-row">
+        {/* <div className=" mx-0 sm:flex sm:flex-col sm:items-center md:flex lg:flex lg:justify-between lg:flex-row"> */}
+            {/* proyecto */}
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
                     </div>
                 </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-               
+                
             </div>
-            <div className="flex  justify-between my-8 mx-0">  
-                {/* proyecto */}
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
+
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
                     </div>
                 </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-               
+                
             </div>
-            <div className="flex  justify-between my-8 mx-0">  
-                {/* proyecto */}
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
                     </div>
                 </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-                <div className="max-w-[450px] border border-black my-0 mx-3 relative overflow-hidden ">
-                    {/* overlay */}
-                    <div></div>
-                    <img src={cardPrice} alt="" className="w-[100%] h-[100%] grayscale hover:grayscale-0 transition duration-300 ease-out hover:ease-in" />
-                    {/* info */}
-                    <div id="over" className="absolute left-0 bg-black text-rose-400 w-[100%] p-3 opacity-0 bottom-[0px] transition duration-150 ease-out hover:ease-in hover:opacity-100 hover:bottom-1 hover:grayscale-0 grayscale-0 ">
-                        <h4>Hi I'm a project</h4>
-                        <p>Diseño web</p>
-                    </div>
-                </div>
-               
+                
             </div>
-           </section>
+            </div>
+            <div className=" mx-0 flex flex-col items-center lg:justify-between lg:flex-row">
+        {/* <div className=" mx-0 sm:flex sm:flex-col sm:items-center md:flex lg:flex lg:justify-between lg:flex-row"> */}
+            {/* proyecto */}
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+
+            
+            
+       </section>
     
 
 
