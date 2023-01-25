@@ -40,8 +40,8 @@ function App() {
             </div>
       </div>
       <SobreMi/>
-      <Conocimiento/>
-      <div>
+      <div className='' >
+          <Conocimiento/>
           <ProjectCards/>
       </div>
     

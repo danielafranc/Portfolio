@@ -1,47 +1,40 @@
-import mac from './img/mac.png' 
-import tools from './img/tools.png' 
-import desarrollador from './img/desarrollador.png' 
-import development from './img/development.png' 
+import react from './img/react.png' 
+import javascript from './img/javascript.png' 
+import html from './img/html.png' 
+import css from './img/css.png' 
+import git from './img/git.png' 
+
 
 
 export const data = [
 { 
-    img: desarrollador,
+    img: html,
     id1: 0,
-    title: 'What I can do',
-    desc: 'Ill create websites that your users will love',
-    skill1: 'Analyzing code',
-    skill2: 'Ensure a seamless user experience',
-    skill3: 'Implementing designs',
-    description: 
-    'He aprendido los lenguajes de diseño más demandados en el área del Frontend'
+    title: 'HTML',
+    desc: 'Designing website´s layout'
 }, 
 {
-    img: tools,
+    img: css,
     id2: 1,
-    title: 'What tools I use',
-    desc: 'No matter what tools your company uses, ! I am open to learn !',
-    skill1: 'HTML Y CSS',
-    skill2: 'JavaScript',
-    skill3: 'TailwindCSS',
-    skill4: 'Bootstrap',
-    skill5: 'Redux, Redux Toolkit ',
-    skill6: 'ReactJS',
-
-    description: 
-    'He aprendido los lenguajes de diseño más demandados en el área del Frontend'
+    title: 'CSS',
+    desc: 'Styling and translating Figma desings into actual code'
 }, 
 {
-    img: development,
+    img: javascript,
     id3: 2,
-    title: 'What you can expect',
-    desc: 'Handling resources to build maintanable code',
-    skill1: 'APIs management',
-    skill2: 'Responsive Design',
-    skill3: 'Version Control and Git',
-    skill4: 'Problem Solving',
-    description: 
-    'He aprendido los lenguajes de diseño más demandados en el área del Frontend'
-},  
+    title: 'Javascript',
+    desc: 'Knowledge and logic to create incredible websites'
+}, 
+{
+    img: react,
+    id4: 3,
+    title: 'React',
+    desc: 'This framework helps designing and implementing functionalities easier'
+}, 
+// {
+//     img: git,
+//     id5: 4,
+//     title: 'Git',
+// }, 
 ]
 export default data;

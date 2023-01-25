@@ -1,20 +1,73 @@
 import cardPrice from "./img/cardPrice.png";
+import cloudReact from "./img/cloudReact.png";
+import growData from "./img/growData.png";
+import shain from "./img/shain.png";
+
+
+
 
 function ProjectCards(props) {
     return (
         
-        <section className="max-w-[1560px] py-[100px] px-4 m-auto">
-        <h1 className="text-center text-[30px] uppercase text-violet-500 underline underline-offset-4 font-[poppins] font-medium mb-5">My projects</h1>
+        <section className="max-w-[1700px] py-[100px] px-4 m-auto">
+        <h1 className="text-center text-[50px] uppercase bg-gradient-to-r from-violet-800 to-fuchsia-500 bg-clip-text text-transparent underline underline-offset-4 font-[poppins] font-bold mb-5">My projects</h1>
         {/* fila */}
-        <div className=" mx-0 flex flex-col items-center lg:justify-between lg:flex-row">
+        <div className="flex flex-col items-center lg:justify-center lg:items-center lg:flex-row">
+            {/* proyecto */}
+            <div className="max-w-[450px] my-6 mx-[50px]  overflow-hidden border-[6px] border-slate-100 rounded-lg hover:shadow-2xl ">
+                {/* overlay */}
+                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Card-UI</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
+                    </div>
+                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://cloud-react.vercel.app/" target="_blank" >Visit website</a></button>
+
+
+                </div>
+                
+            </div>
+            {/* proyecto */}
+            <div className="max-w-[450px] my-6 mx-[50px]  overflow-hidden border-[6px] border-slate-100 rounded-lg hover:shadow-2xl ">
+                {/* overlay */}
+                <img src={cloudReact} alt="" className="w-[100%] h-[100%] object-fit" />
+                {/* info */}
+                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
+                    <h2 className="text-2xl p-2">Cloud Management</h2>
+                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <div className="justify-between ">
+                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
+                        <li className="p-0">Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind</li>
+
+                    </ul>
+                    </div>
+                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://cloud-react.vercel.app/" target="_blank" >Visit website</a></button>
+
+
+
+                </div>
+            </div>
+            </div>
+            {/* COMIENZO FILA #2 */}
+            <div className=" flex flex-col items-center lg:justify-center lg:items-center lg:flex-row">
         {/* <div className=" mx-0 sm:flex sm:flex-col sm:items-center md:flex lg:flex lg:justify-between lg:flex-row"> */}
             {/* proyecto */}
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="max-w-[450px] my-6 mx-[50px]  overflow-hidden border-[6px] border-slate-100 rounded-lg hover:shadow-2xl ">
                 {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                <img src={shain} alt="" className="w-[100%] h-[100%] object-fit" />
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <h2 className="text-2xl p-2">Shain Webshop</h2>
                     <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
@@ -24,16 +77,20 @@ function ProjectCards(props) {
 
                     </ul>
                     </div>
+                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://github.com/danielafranc" target="_blank" >Visit website</a></button>
+
+
+
                 </div>
                 
-            </div>
+            </div> 
 
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+            <div className="max-w-[450px] my-6 mx-[50px]  overflow-hidden border-[6px] border-slate-100 rounded-lg hover:shadow-2xl ">
                 {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
+                <img src={growData} alt="" className="w-[100%] h-[100%] object-fit" />
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
+                    <h2 className="text-2xl p-2">Grow With Data</h2>
                     <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
@@ -43,86 +100,12 @@ function ProjectCards(props) {
 
                     </ul>
                     </div>
+                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://data-app-js.vercel.app/" target="_blank" >Visit website</a></button>
+
+
                 </div>
                 
-            </div>
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
-                {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
-                {/* info */}
-                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
-                    <div className="justify-between ">
-                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
-                        <li>Tailwind</li>
-
-                    </ul>
-                    </div>
-                </div>
-                
-            </div>
-            </div>
-            <div className=" mx-0 flex flex-col items-center lg:justify-between lg:flex-row">
-        {/* <div className=" mx-0 sm:flex sm:flex-col sm:items-center md:flex lg:flex lg:justify-between lg:flex-row"> */}
-            {/* proyecto */}
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
-                {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
-                {/* info */}
-                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
-                    <div className="justify-between ">
-                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
-                        <li>Tailwind</li>
-
-                    </ul>
-                    </div>
-                </div>
-                
-            </div>
-
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
-                {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
-                {/* info */}
-                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
-                    <div className="justify-between ">
-                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
-                        <li>Tailwind</li>
-
-                    </ul>
-                    </div>
-                </div>
-                
-            </div>
-            <div className="max-w-[450px] my-3 mx-3  overflow-hidden border-[6px] border-slate-100 rounded-lg shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
-                {/* overlay */}
-                <img src={cardPrice} alt="" className="w-[100%] h-[100%] object-fit" />
-                {/* info */}
-                <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Hi I'm a project</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
-                    <div className="justify-between ">
-                    <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
-                        <li>Tailwind</li>
-
-                    </ul>
-                    </div>
-                </div>
-                
-            </div>
+            </div>           
             </div>
 
             

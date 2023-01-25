@@ -29,7 +29,10 @@ module.exports = {
       'footer-texture': "url('/img/footer-texture.png')",
     },
     fonts: {
-      'poppins': ['Lato', 'sans-serif']
+      'poppins': ['Lato', 'sans-serif'],
+      'DM Sans': ['sans-serif'],
+      'Roboto Slab': ['serif'],
+      'Source Serif Pro': ['serif']
     }
   }
   },
