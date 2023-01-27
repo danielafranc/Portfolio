@@ -6,10 +6,10 @@ function Conocimiento() {
     return (
         <>
         {/* CARDS MAP */}
-        <section className='max-w-[1560px] py-[100px] px-4 m-auto'>
+        <section id='conocimiento' className='max-w-[1560px] py-[100px] px-4 m-auto'>
         <div>
-            <h1 className='font-bold'>Knowledge</h1>
-            <h2 className='text-slate-900 font-semibold'> I'll shape your idea in a <span className='text-violet-400'>spectacular website</span> </h2>
+            <h1 className='font-bold text-black font-[poppins] pb-3'>Knowledge</h1>
+            <h2 className='text-slate-900 font-semibold font-[poppins]'> I'll shape your idea in a <span className='text-violet-400'>spectacular website</span> </h2>
         </div>
         <div className='flex justify-between my-8 mx-auto ease-out p-8 md:flex-row'>
         {data.map((item) => (
