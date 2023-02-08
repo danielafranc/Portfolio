@@ -5,7 +5,7 @@ function SobreMi(props) {
 
     return (
         <>
-            <div id='sobremi' className=' min-w-[320px] flex  justify-between items-center pb-[100px] pt-[100px] px-8 mx-5'>
+            <div id='sobremi' className=' h-[100vh] flex  justify-between items-center px-8'>
                 <div className='max-w-[400px] mr-[80px]'>
                     <img src={profilePic} alt="" className='p-5 w-[100%] rounded-2xl bg-[#f3f3f3]'/>
                 </div>

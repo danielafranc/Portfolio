@@ -9,7 +9,7 @@ import shain from "./img/shain.png";
 function ProjectCards(props) {
     return (
         
-        <section id="portfolio" className="max-w-[1700px] py-[100px] px-4 m-auto">
+        <section id="portfolio" className="max-w-[1700px] py-[150px] px-4 m-auto">
         <h1 className="text-center text-[50px] uppercase bg-gradient-to-r from-violet-800 to-fuchsia-500 bg-clip-text text-transparent underline underline-offset-4 font-[poppins] font-bold mb-5">My projects</h1>
         {/* fila */}
         <div className="flex flex-col items-center lg:justify-center lg:items-center lg:flex-row">

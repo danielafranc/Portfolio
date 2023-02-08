@@ -13,7 +13,6 @@ function Footer(props) {
                 <h1 className='text-4xl font-extrabold font-[poppins]'>Daniela Franco.</h1>
                 <h3 className='underline mt-3 text-xl font-medium'>!Puedes contactarme!</h3>
                 <p className='text-xl mt-3'>iosdanielafranco@gmail.com</p>
-                <p className=' text-lg'>+54 9 11 2255 2100</p>
                 </div>
                 {/* todo tiene que estar en ingles */}
                 {/* Estoy en busca de mi primera oportunidad laboral como desarrolladora para aportar mi conocimiento transformarlo, y hacerlo crecer creando soluciones para los problemas de la gente */}
