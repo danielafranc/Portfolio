@@ -10,9 +10,9 @@ function Navbar(props) {
         <h1 className='text-center font-bold text-3xl text-white font-[poppins]'>{name}</h1>
         <nav className='' >
             <ul className='list-none flex items-center font-[poppins]'>
-            <li className='mr-4 font-normal'><Link active="active" to="conocimiento" smooth={true} duration={500} className='hover:ease-in-out text-white hover:text-rose-700 duration-[.5s]'>KNOWLEDGE</Link></li>
-            <li className='mr-4 font-normal'><a href="#portfolio" className='hover:ease-in-out text-white hover:text-rose-700 duration-[.5s]'>PORTFOLIO</a></li>
-            <li className='mr-4 font-normal'><a href="#contacta" className='hover:ease-in-out text-white hover:text-rose-700 duration-[.5s]'>CONTACT</a></li>
+            <li className='mr-4 font-normal'><Link active="active" to="conocimiento" smooth={true} duration={500} className='hover:ease-in-out text-white'>KNOWLEDGE</Link></li>
+            <li className='mr-4 font-normal'><Link active="active" to="portfolio" smooth={true} duration={500} className='hover:ease-in-out text-white'>PORTFOLIO</Link></li>
+            <li className='mr-4 font-normal'><Link active="active" to="contact" smooth={true} duration={500} className='hover:ease-in-out text-white'>CONTACT</Link></li>
             </ul>
         </nav>
     </div>

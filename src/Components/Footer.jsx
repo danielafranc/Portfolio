@@ -5,7 +5,7 @@ import github from './img/github.png'
 function Footer(props) {
     return (
         <>
-           <section  id="contact" className='max-w-[100%] bg-[#e6edf1] p-6 h-96 flex items-center justify-center'>
+           <section  name="contact" className='max-w-[100%] bg-[#e6edf1] p-6 h-96 flex items-center justify-center'>
             <div className='w-[80%] bg-[#fff] m-auto p-6 border-4 border-white rounded-2xl'>
                     <div className='flex justify-between items-center'>
                     {/* name and contact section */}
