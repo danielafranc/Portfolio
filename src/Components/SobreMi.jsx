@@ -5,7 +5,8 @@ function SobreMi(props) {
 
     return (
         <>
-            <div id='sobremi' className='max-w-[1700px] h-[100vh] flex  justify-between items-center px-8 m-8'>
+            <div id='sobremi' className='max-w-[1700px] px-8 m-auto mt-[10%]'>
+                <div className='flex  justify-between items-center'>
                 <div className='max-w-[400px] mr-[80px]'>
                     <img src={profilePic} alt="" className='p-5 w-[100%] rounded-2xl bg-[#f3f3f3]'/>
                 </div>
@@ -21,6 +22,8 @@ function SobreMi(props) {
                     
                     <button className='rounded-3xl border-3   mt-6 text-white hover:bg-transparent bg-purple-600 hover:text-purple-600 hover:border-purple-600'><a href="https://docs.google.com/document/d/1p9dKpnt9aN10ZGR5_6cSqgcNaIkqMdbhCO8s4SYHIk4/edit?usp=share_link" target="_blank">Watch my curriculum</a></button>
                 </div>
+                </div>
+              
             </div>
             
 {/*  */}

@@ -20,16 +20,16 @@ function ProjectCards(props) {
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
                     <h2 className="text-2xl p-2">Card-UI</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <p className="text-lg">These cards were made with React, CSS, Tailwind, and components from Material MUI </p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
+                        <li className="p-0">ReactJS</li>
+                        <li>Material MUI</li>
                         <li>Tailwind</li>
 
                     </ul>
                     </div>
-                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://cloud-react.vercel.app/" target="_blank" >Visit website</a></button>
+                    <button className="border-[3px] rounded-full border-violet-700 bg-transparent mt-2 text-violet-700 hover:bg-violet-700 hover:text-white hover:shadow-2xl"><a href="https://price-card-eight.vercel.app" target="_blank" >Visit website</a></button>
 
 
                 </div>
@@ -42,11 +42,11 @@ function ProjectCards(props) {
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
                     <h2 className="text-2xl p-2">Cloud Management</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <p className="text-lg">This website was made with 100% ReactJS, and fully styled with TailwindCSS</p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
+                        <li className="p-0">ReactJS</li>
+                        <li>CSS</li>
                         <li>Tailwind</li>
 
                     </ul>
@@ -67,13 +67,13 @@ function ProjectCards(props) {
                 <img src={shain} alt="" className="w-[100%] h-[100%] object-fit" />
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
-                    <h2 className="text-2xl p-2">Shain Webshop</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <h2 className="text-2xl p-2">Cripto Currency</h2>
+                    <p className="text-lg">This is a website that consumes an API, and takes all Cripto's information and displays it on the screen. You can search the currency you want!!</p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
+                        <li className="p-0">Javascript, Axios</li>
                         <li>ReactJS</li>
-                        <li>Tailwind</li>
+                        <li>CSS</li>
 
                     </ul>
                     </div>
@@ -91,11 +91,11 @@ function ProjectCards(props) {
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
                     <h2 className="text-2xl p-2">Grow With Data</h2>
-                    <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit laborum, nulla amet iste distinctio libero</p>
+                    <p className="text-lg">This website is made with Javascript, more specificallly with the ReactJS framework and 100% styled with TailwindCSS</p>
                     <div className="justify-between ">
                     <ul className="list-disc flex justify-between p-3 ml-3 items-center md:flex md:justify-between">
-                        <li className="p-0">Javascript</li>
-                        <li>ReactJS</li>
+                        <li className="p-0">ReactJS</li>
+                        <li>CSS</li>
                         <li>Tailwind</li>
 
                     </ul>

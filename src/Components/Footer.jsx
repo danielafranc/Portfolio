@@ -11,14 +11,13 @@ function Footer(props) {
                     {/* name and contact section */}
                 <div className='p-0 m-0 text-left text-black'>
                 <h1 className='text-4xl font-extrabold font-[poppins]'>Daniela Franco.</h1>
-                <h3 className='underline mt-3 text-xl font-medium'>!Puedes contactarme!</h3>
+                <h3 className='underline mt-3 text-xl font-medium'>You can contact me on</h3>
                 <p className='text-xl mt-3'>iosdanielafranco@gmail.com</p>
                 </div>
-                {/* todo tiene que estar en ingles */}
-                {/* Estoy en busca de mi primera oportunidad laboral como desarrolladora para aportar mi conocimiento transformarlo, y hacerlo crecer creando soluciones para los problemas de la gente */}
+            
                 {/* middle section*/}
                 <div className=' flex justify-center p-auto'> 
-                <p className='ml-[-20px] text-black'>Todos los derechos reservados - 2023 </p>
+                <p className='ml-[-20px] text-black'>All rights reserved - 2023 </p>
                 </div>
 
                 {/* social media section */}

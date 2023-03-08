@@ -14,7 +14,9 @@
   background-position: center center;
   width: 100%;
 }
-
+body{
+  overflow-x: hidden;
+}
 .logo {
   height: 6em;
   will-change: filter;

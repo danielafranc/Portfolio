@@ -1,8 +1,7 @@
-import react from './img/react.png' 
-import javascript from './img/javascript.png' 
-import html from './img/html.png' 
-import css from './img/css.png' 
-import git from './img/git.png' 
+import react from '../Components/img/react.png' 
+import javascript from '../Components/img/javascript.png' 
+import html from '../Components/img/html.png' 
+import css from '../Components/img/css.png' 
 
 
 
