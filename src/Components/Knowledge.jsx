@@ -13,7 +13,7 @@ function Conocimiento() {
         </div>
         <div className='flex  flex-col items-center lg:flex-row my-8 mx-4 ease-out p-8'>
         {data.map((item) => (
-            <div className='bg-white p-8 m-auto  flex flex-col lg:items-center justify-center w-[350px] h-[400px] border-[6px] border-slate-100 rounded-lg sm:mb-4'>
+            <div className='bg-white p-8 m-auto  flex flex-col lg:items-center justify-center w-[350px] h-[400px] rounded-lg sm:mb-4 shadow-lg lg:gap-[25px]'>
                 <img src={item.img} alt={item.img}  className='w-[100px] h-[100px] mt-1 mb-4 flex justify-center items-center m-auto' />
                 <h1 className='text-2xl font-bold text-black m-3'>{item.title}</h1>
                 <p className='m-3 text-slate-800/60 font-[poppins] text-lg font-semibold'>{item.desc}</p>

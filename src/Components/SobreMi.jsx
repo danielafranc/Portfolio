@@ -20,7 +20,7 @@ function SobreMi(props) {
                     <p className='font-[poppins]'>I am currently looking for my first job opportunity as a Frontend Web Developer to contribute my knowledge, transform it, and make it grow by creating solutions for people's problems</p>
                     </div>
                     
-                    <button className='rounded-3xl border-3   mt-6 text-white hover:bg-transparent bg-purple-600 hover:text-purple-600 hover:border-purple-600'><a href="https://docs.google.com/document/d/1p9dKpnt9aN10ZGR5_6cSqgcNaIkqMdbhCO8s4SYHIk4/edit?usp=share_link" target="_blank">Watch my curriculum</a></button>
+                    <button className='rounded-3xl border-3   mt-6 text-white hover:bg-transparent bg-purple-600 hover:text-purple-600 hover:border-purple-600'><a href="https://docs.google.com/document/d/1fEfi7GA-N6Kh6dyAWTOPG8F77FCPRdFqosO-z2vVqjs/edit?usp=sharing" target="_blank">Watch my curriculum</a></button>
                 </div>
                 </div>
               

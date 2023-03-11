@@ -2,6 +2,7 @@ import cardPrice from "./img/cardPrice.png";
 import cloudReact from "./img/cloudReact.png";
 import growData from "./img/growData.png";
 import shain from "./img/shain.png";
+import criptoCurrency from './img/criptoCurrency.png';
 
 
 
@@ -64,7 +65,7 @@ function ProjectCards(props) {
             {/* proyecto */}
             <div className="max-w-[450px] my-6 mx-[50px]  overflow-hidden border-[6px] border-slate-100 rounded-lg hover:shadow-2xl ">
                 {/* overlay */}
-                <img src={shain} alt="" className="w-[100%] h-[100%] object-fit" />
+                <img src={criptoCurrency} alt="" className="w-[100%] h-[100%] object-fit" />
                 {/* info */}
                 <div className="text-black bg-white w-[100%] p-3 border-t-4 border-slate-100 font-[poppins]">
                     <h2 className="text-2xl p-2">Cripto Currency</h2>
