@@ -10,25 +10,34 @@ const DescriptionCards = () => {
                 <h1 className='font-[poppins] font-extrabold text-gray-900 text-[58px] '>Languages</h1>
                 <h2 className='mt-5 text-xl inter tracking-wide font-[poppins]'>I am a self taught polygloth and I can speak:</h2>
 
-                <div className='flex  flex-col items-center lg:flex-row justify-center gap-6 mt-5'>
-                <div className="border shadow w-48 h-70 p-3 rounded">
-                    <img src={spain} alt="English" />
+                <div className='flex  flex-col items-center lg:flex-row justify-center gap-6 mt-5 md:gap-6'>
+
+                    {/* Spanish card */}
+                <div className="border shadow w-72 h-70 p-3 rounded">
+                    <div className='flex-col'>
+                    <img src={spain} alt="English"  className='m-auto'/>
                     <p className='font-bold text-2xl text-black'>Spanish</p>
                     <p className='font-medium mt-2'>Level</p>
                     <p className='font-bold text-slate-500 text-2xl'>Native</p>
+                    </div>
                 </div>
+                {/* Englsih card */}
                 <div className="border shadow w-48 h-70 p-3 rounded">
                     <img src={usa} alt="English" />
                     <p className='font-bold text-xl text-black'>English</p>
                     <p className='font-medium mt-2'>Level</p>
                     <p className='font-bold text-slate-500 text-2xl'>Advanced</p>
                 </div>
+
+                {/* Portuguese card */}
                 <div className="border shadow w-48 h-70 p-3 rounded">
                     <img src={portugal} alt="English" />
                     <p className='font-bold text-xl text-black'>Portuguese</p>
                     <p className='font-medium mt-2'>Level</p>
                     <p className='font-bold text-slate-500 text-2xl'>Intermediate</p>
                 </div>
+
+                {/* French card */}
                 <div className="border shadow w-48 h-70 p-3 rounded">
                     <img src={france} alt="English" />
                     <p className='font-bold text-xl text-black'>French</p>

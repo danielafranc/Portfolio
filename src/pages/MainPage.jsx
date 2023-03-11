@@ -18,7 +18,6 @@ const MainPage = () => {
             {/* Presentación */}
             <div className='max-w-[1100px] min-w-[320px] h-[100vh] m-auto flex flex-col items-center justify-center'> {/*  // PRESENTACIÓN// */}
             <h2 className='text-[55px] mb-6 text-left leading-none text-white font-bold font-[poppins]'>turning ideas into real life <span id='css-selector'>websites</span> is my calling.</h2>
-            <button className='bg-transparent border-2 border-white rounded-3xl hover:ease-in uppercase hover:text-fuchsia-100 text-white hover:shadow-lg hover:shadow-indigo-500/40 '><a href="#portfolio">Take a look</a></button>
             </div> 
             </div>
       </div>
